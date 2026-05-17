@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "author": "Nguyen Le Phi Bao",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -143.7, "left": 61.8, "attrs": {} },
+    { "type": "wokwi-gas-sensor", "id": "gas1", "top": 167, "left": -280, "attrs": {} },
+    { "type": "wokwi-photoresistor-sensor", "id": "ldr1", "top": -44.8, "left": -285, "attrs": {} },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": -157, "left": -260, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 104,
+      "left": 285,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledLight",
+      "top": 309,
+      "left": 212,
+      "rotate": 180,
+      "attrs": { "color": "yellow", "label": "Den" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledRain",
+      "top": 309,
+      "left": 260,
+      "rotate": 180,
+      "attrs": { "color": "blue", "label": "Mai hien" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledMotion",
+      "top": 309,
+      "left": 308,
+      "rotate": 180,
+      "attrs": { "color": "green", "label": "Coi nguoi la" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledGas",
+      "top": 309,
+      "left": 356,
+      "rotate": 180,
+      "attrs": { "color": "red", "label": "Coi gas" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledTemp",
+      "top": 309,
+      "left": 404,
+      "rotate": 180,
+      "attrs": { "color": "orange", "label": "Quat" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledWindow",
+      "top": 309,
+      "left": 452,
+      "rotate": 180,
+      "attrs": { "color": "cyan", "label": "Cua so" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledHumidity",
+      "top": 309,
+      "left": 500,
+      "rotate": 180,
+      "attrs": { "color": "blue", "label": "May hut am" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledValve",
+      "top": 309,
+      "left": 548,
+      "rotate": 180,
+      "attrs": { "color": "limegreen", "label": "Van gas" }
+    },
+    { "type": "wokwi-resistor", "id": "rLight", "top": 262, "left": 203, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rRain", "top": 262, "left": 251, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rMotion", "top": 262, "left": 299, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rGas", "top": 262, "left": 347, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rTemp", "top": 262, "left": 395, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rWindow", "top": 262, "left": 443, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rHumidity", "top": 262, "left": 491, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rValve", "top": 262, "left": 539, "rotate": 90, "attrs": { "value": "220" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+
+    [ "dht1:VCC", "esp:3V3", "red", [ "h-76.8", "v57.6" ] ],
+    [ "dht1:GND", "esp:GND.2", "black", [ "v57.6" ] ],
+    [ "dht1:SDA", "esp:4", "limegreen", [ "h86.5", "v172.8" ] ],
+
+    [ "gas1:VCC", "esp:5V", "red", [ "h0" ] ],
+    [ "gas1:GND", "esp:GND.1", "black", [ "h96", "v-39.2" ] ],
+    [ "gas1:AOUT", "esp:34", "green", [ "v-105.6", "h129.41" ] ],
+
+    [ "ldr1:VCC", "esp:3V3", "red", [ "v-19.2", "h105.45" ] ],
+    [ "ldr1:GND", "esp:GND.1", "black", [ "h67.2", "v162.8", "h38.25" ] ],
+    [ "ldr1:AO", "esp:35", "white", [ "v76.1", "h105.45" ] ],
+
+    [ "pir1:VCC", "esp:5V", "red", [ "h0" ] ],
+    [ "pir1:GND", "esp:GND.2", "black", [ "h0" ] ],
+    [ "pir1:OUT", "esp:19", "purple", [ "h0" ] ],
+
+    [ "btn1:1.l", "esp:18", "magenta", [ "h0" ] ],
+    [ "btn1:2.r", "esp:GND.3", "cyan", [ "v-28.8", "h-235.04" ] ],
+
+    [ "rLight:1", "esp:2", "yellow", [ "v0" ] ],
+    [ "rLight:2", "ledLight:A", "yellow", [ "v0" ] ],
+    [ "ledLight:C", "esp:GND.3", "black", [ "v0" ] ],
+
+    [ "rRain:1", "esp:5", "blue", [ "v0" ] ],
+    [ "rRain:2", "ledRain:A", "blue", [ "v0" ] ],
+    [ "ledRain:C", "esp:GND.3", "black", [ "v0" ] ],
+
+    [ "rMotion:1", "esp:16", "green", [ "v0" ] ],
+    [ "rMotion:2", "ledMotion:A", "green", [ "v0" ] ],
+    [ "ledMotion:C", "esp:GND.3", "black", [ "v0" ] ],
+
+    [ "rGas:1", "esp:17", "red", [ "v0" ] ],
+    [ "rGas:2", "ledGas:A", "red", [ "v0" ] ],
+    [ "ledGas:C", "esp:GND.3", "black", [ "v0" ] ],
+
+    [ "rTemp:1", "esp:21", "orange", [ "v0" ] ],
+    [ "rTemp:2", "ledTemp:A", "orange", [ "v0" ] ],
+    [ "ledTemp:C", "esp:GND.3", "black", [ "v0" ] ],
+
+    [ "rWindow:1", "esp:22", "cyan", [ "v0" ] ],
+    [ "rWindow:2", "ledWindow:A", "cyan", [ "v0" ] ],
+    [ "ledWindow:C", "esp:GND.3", "black", [ "v0" ] ],
+
+    [ "rHumidity:1", "esp:23", "blue", [ "v0" ] ],
+    [ "rHumidity:2", "ledHumidity:A", "blue", [ "v0" ] ],
+    [ "ledHumidity:C", "esp:GND.3", "black", [ "v0" ] ],
+
+    [ "rValve:1", "esp:25", "limegreen", [ "v0" ] ],
+    [ "rValve:2", "ledValve:A", "limegreen", [ "v0" ] ],
+    [ "ledValve:C", "esp:GND.3", "black", [ "v0" ] ]
+  ],
+  "libraries": [
+    "DHT sensor library",
+    "Adafruit Unified Sensor",
+    "ArduinoJson@6.21.5",
+    "PubSubClient"
+  ]
+}

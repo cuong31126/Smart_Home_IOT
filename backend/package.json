@@ -1,0 +1,29 @@
+{
+  "name": "smarthome-mqtt-backend",
+  "version": "1.0.0",
+  "description": "Node.js middleware nhan MQTT tu ESP32 va ghi Firebase Realtime Database cho do an IoT Smart Home.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "firebase",
+    "smart-home",
+    "esp32"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
+    "mqtt": "^5.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
