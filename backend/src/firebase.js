@@ -33,10 +33,28 @@ function loadServiceAccount() {
     return JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON)
   }
 
-  const serviceAccountPath =
-    process.env.FIREBASE_SERVICE_ACCOUNT_PATH || './serviceAccountKey.json'
+  if (process.env.FIREBASE_SERVICE_ACCOUNT_PATH) {
+    return readServiceAccountFromFile(process.env.FIREBASE_SERVICE_ACCOUNT_PATH)
+  }
 
-  return readServiceAccountFromFile(serviceAccountPath)
+  const serviceAccountCandidates = [
+    './serviceAccountKey.json',
+    './ServiceAccountKey.json',
+    '/etc/secrets/serviceAccountKey.json',
+    '/etc/secrets/ServiceAccountKey.json',
+  ]
+
+  const existingPath = serviceAccountCandidates.find((filePath) => {
+    const resolvedPath = path.isAbsolute(filePath)
+      ? filePath
+      : path.resolve(process.cwd(), filePath)
+
+    return fs.existsSync(resolvedPath)
+  })
+
+  return readServiceAccountFromFile(
+    existingPath || serviceAccountCandidates[0],
+  )
 }
 
 function normalizePrivateKey(serviceAccount) {

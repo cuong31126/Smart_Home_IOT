@@ -5,3 +5,122 @@
   'smarthome/devices/status',
   'smarthome/alerts'
 ]
+[MQTT] Publish smarthome/mode/control: {"mode":"manual"}
+[MQTT] Publish smarthome/devices/control: {"securityAlarm":0}
+[MQTT] Publish smarthome/devices/control: {"gasAlarm":0}
+[MQTT] Publish smarthome/devices/control: {"lamp":1}
+[MQTT] Publish smarthome/devices/control: {"lamp":0}
+[MQTT] Publish smarthome/devices/control: {"securityAlarm":1}
+[MQTT] Publish smarthome/devices/control: {"gasAlarm":1}
+[MQTT] Publish smarthome/devices/control: {"lamp":1}
+[MQTT] Publish smarthome/devices/control: {"lamp":0}
+[MQTT] Publish smarthome/devices/control: {"securityAlarm":0}
+[MQTT] Publish smarthome/devices/control: {"gasAlarm":0}
+[MQTT] Publish smarthome/mode/control: {"mode":"auto"}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3160,
+  light: 3965,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'auto',
+  timestamp: 1778986352284
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3160,
+  light: 3965,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'auto',
+  timestamp: 1778986363548
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 856,
+  light: 3965,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  gasWarning: 0,
+  tempWarning: 0,
+  mode: 'auto',
+  timestamp: 1778986375161
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'auto'
+}
+[MQTT] Publish smarthome/mode/control: {"mode":"manual"}
+[MQTT] Publish smarthome/mode/control: {"mode":"manual"}
+[MQTT] Publish smarthome/mode/control: {"mode":"auto"}
