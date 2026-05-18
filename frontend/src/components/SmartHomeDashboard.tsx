@@ -26,6 +26,7 @@ import {
   DEVICE_STATUS_PATH,
   EMPTY_DEVICE_STATUS,
   EMPTY_TELEMETRY,
+  normalizeDeviceStatus,
   subscribeToDeviceStatus,
   subscribeToTelemetry,
 } from '@/lib/database'
@@ -212,6 +213,16 @@ function getDeviceControlValue(
   key: DeviceControlKey,
 ) {
   return deviceStatus[key] ?? 0
+}
+
+function mergeDeviceStatusPatch(
+  currentStatus: DeviceStatus,
+  patch: Partial<DeviceStatus>,
+) {
+  return normalizeDeviceStatus({
+    ...currentStatus,
+    ...patch,
+  })
 }
 
 export default function SmartHomeDashboard() {
@@ -453,7 +464,15 @@ export default function SmartHomeDashboard() {
     setControlError(null)
 
     try {
-      await sendModeControl(mode)
+      const response = await sendModeControl(mode)
+
+      setDeviceStatus((currentStatus) =>
+        mergeDeviceStatusPatch(currentStatus, {
+          ...(response.status ?? {}),
+          mode,
+        }),
+      )
+      setDeviceStatusConnected(true)
     } catch (error) {
       setControlError(error instanceof Error ? error.message : 'Khong gui duoc mode')
     } finally {
@@ -478,8 +497,17 @@ export default function SmartHomeDashboard() {
         return
       }
 
-      const payload: DeviceControl = { [key]: currentValue >= 1 ? 0 : 1 }
-      await sendDeviceControl(payload)
+      const nextValue = currentValue >= 1 ? 0 : 1
+      const payload: DeviceControl = { [key]: nextValue }
+      const response = await sendDeviceControl(payload)
+
+      setDeviceStatus((currentStatus) =>
+        mergeDeviceStatusPatch(currentStatus, {
+          ...payload,
+          ...(response.status ?? {}),
+        }),
+      )
+      setDeviceStatusConnected(true)
     } catch (error) {
       setControlError(error instanceof Error ? error.message : 'Khong gui duoc lenh')
     } finally {

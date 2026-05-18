@@ -186,7 +186,8 @@ router.post('/control', async (req, res, next) => {
 
     // cập nhật firebase 
     const control = await updateControlData(payload)
-    const status = await updateDeviceStatus(payload)
+    await updateDeviceStatus(payload)
+    const status = await getDeviceStatus()
     // trả kết quả về frontend 
     return res.json({
       message: 'Da gui lenh dieu khien thiet bi qua MQTT',
@@ -215,7 +216,8 @@ router.post('/mode', async (req, res, next) => {
     await publishJson(TOPICS.modeControl, payload)
     // cập nhật firebase 
     const control = await updateControlData(payload)
-    const status = await updateDeviceStatus(payload)
+    await updateDeviceStatus(payload)
+    const status = await getDeviceStatus()
 
     return res.json({
       message: 'Da gui lenh doi mode qua MQTT',

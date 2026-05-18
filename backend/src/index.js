@@ -9,9 +9,23 @@ const app = express()
 const port = Number(process.env.PORT || 4000)
 const corsOrigin = process.env.CORS_ORIGIN || '*'
 
+function parseCorsOrigin(value) {
+  if (!value || value === '*') return true
+
+  const origins = value
+    .split(',')
+    .map((origin) => origin.trim())
+    .filter(Boolean)
+
+  if (origins.length === 0) return true
+  if (origins.length === 1) return origins[0]
+
+  return origins
+}
+
 app.use(
   cors({
-    origin: corsOrigin === '*' ? true : corsOrigin,
+    origin: parseCorsOrigin(corsOrigin),
   }),
 )
 app.use(express.json())

@@ -124,3 +124,1676 @@
 [MQTT] Publish smarthome/mode/control: {"mode":"manual"}
 [MQTT] Publish smarthome/mode/control: {"mode":"manual"}
 [MQTT] Publish smarthome/mode/control: {"mode":"auto"}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 856,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  gasWarning: 0,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989413525
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 856,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  gasWarning: 0,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989679392
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989683665
+}
+[Firebase] Da push smarthome/logs: {
+  id: '-Oso24QPTyrWS-UJ1xHX',
+  type: 'gas',
+  message: 'Cảnh báo khí gas vượt ngưỡng',
+  value: 3658,
+  timestamp: 1778989683909
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[MQTT] Publish smarthome/mode/control: {"mode":"auto"}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989926807
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 1,
+  motion: 0,
+  lamp: 0,
+  awning: 1,
+  window: 1,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989931000
+}
+[Firebase] Da push smarthome/logs: {
+  id: '-Oso30nlZIGJfw4D530F',
+  type: 'rain',
+  message: 'Phát hiện trạng thái mưa',
+  value: 1,
+  timestamp: 1778989931230
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 1,
+  motion: 0,
+  lamp: 0,
+  awning: 1,
+  window: 1,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989935275
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 1,
+  motion: 0,
+  lamp: 0,
+  awning: 1,
+  window: 1,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989939514
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 1,
+  motion: 0,
+  lamp: 0,
+  awning: 1,
+  window: 1,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989943748
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 1,
+  motion: 0,
+  lamp: 0,
+  awning: 1,
+  window: 1,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989948019
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778989952287
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990222812
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990227299
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990232018
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990237322
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990242349
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990247028
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 0,
+  gasValve: 1,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 1,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990251402
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 40,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'auto',
+  timestamp: 1778990294541
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 52.2,
+  humidity: 92.5,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990298660
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da push smarthome/logs: {
+  id: '-Oso4QZGLyv_6900CiH-',
+  type: 'temperature',
+  message: 'Nhiệt độ vượt ngưỡng an toàn',
+  value: 52.2,
+  timestamp: 1778990298879
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 52.2,
+  humidity: 92.5,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990302710
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 52.2,
+  humidity: 92.5,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990332828
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[MQTT] Publish smarthome/mode/control: {"mode":"auto"}
+[MQTT] Publish smarthome/mode/control: {"mode":"manual"}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 52.2,
+  humidity: 92.5,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990541818
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 0,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990545840
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[MQTT] Publish smarthome/mode/control: {"mode":"auto"}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 0,
+  gas: 3658,
+  light: 797,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990642830
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 0,
+  gas: 3658,
+  light: 4032,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'manual',
+  timestamp: 1778990646868
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 0,
+  gas: 3951,
+  light: 4032,
+  rain: 0,
+  motion: 0,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'auto',
+  timestamp: 1778990661234
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: -40,
+  humidity: 0,
+  gas: 3951,
+  light: 4032,
+  rain: 0,
+  motion: 1,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 0,
+  mode: 'auto',
+  timestamp: 1778990665323
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 0,
+  dehumidifier: 0,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da push smarthome/logs: {
+  id: '-Oso5p4_VHAHtqPwJSq-',
+  type: 'motion',
+  message: 'Phát hiện chuyển động',
+  value: 1,
+  timestamp: 1778990665555
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 4032,
+  rain: 0,
+  motion: 1,
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990669447
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 0,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da push smarthome/logs: {
+  id: '-Oso5q5GFDa4SjHG6Vpu',
+  type: 'temperature',
+  message: 'Nhiệt độ vượt ngưỡng an toàn',
+  value: 56.4,
+  timestamp: 1778990669695
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990673693
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990690845
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990694940
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990698916
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990702994
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da push smarthome/logs: {
+  id: '-Oso5yHZwQXGrAhRFG0n',
+  type: 'rain',
+  message: 'Phát hiện trạng thái mưa',
+  value: 1,
+  timestamp: 1778990703250
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990768100
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990771847
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990775685
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990779573
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990783435
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990787250
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'manual',
+  timestamp: 1778990791118
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'manual'
+}
+[Firebase] Da push smarthome/logs: {
+  id: '-Oso6InA7A_hTATRmYkT',
+  type: 'rain',
+  message: 'Phát hiện trạng thái mưa',
+  value: 1,
+  timestamp: 1778990791353
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990799362
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990803121
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990806944
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990810853
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 1,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990822812
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da push smarthome/logs: {
+  id: '-Oso6QXPOAWfdHmBArX1',
+  type: 'motion',
+  message: 'Phát hiện chuyển động',
+  value: 1,
+  timestamp: 1778990823048
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 1,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990829446
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 1,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 1,
+  motion: 0,
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990833280
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 1,
+  window: 1,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[Firebase] Da ghi smarthome/current: {
+  temperature: 56.4,
+  humidity: 100,
+  gas: 3951,
+  light: 67,
+  rain: 0,
+  motion: 0,
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 1,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  gasWarning: 1,
+  tempWarning: 1,
+  mode: 'auto',
+  timestamp: 1778990837247
+}
+[Firebase] Da ghi smarthome/devices/status: {
+  lamp: 1,
+  awning: 0,
+  window: 0,
+  fan: 1,
+  dehumidifier: 0,
+  securityAlarm: 0,
+  gasAlarm: 1,
+  gasValve: 0,
+  mode: 'auto'
+}
+[MQTT] Dang reconnect...
+[MQTT] Da ket noi broker mqtt://broker.hivemq.com:1883 voi clientId smarthome-backend-e1004f
+[MQTT] Da subscribe: []
+[MQTT] Dang reconnect...
+[MQTT] Da ket noi broker mqtt://broker.hivemq.com:1883 voi clientId smarthome-backend-e1004f
+[MQTT] Da subscribe: []
+[MQTT] Dang reconnect...
+[MQTT] Da ket noi broker mqtt://broker.hivemq.com:1883 voi clientId smarthome-backend-e1004f
+[MQTT] Da subscribe: []
+[MQTT] Dang reconnect...
+[MQTT] Da ket noi broker mqtt://broker.hivemq.com:1883 voi clientId smarthome-backend-e1004f
+[MQTT] Da subscribe: []
+[MQTT] Dang reconnect...
+[MQTT] Da ket noi broker mqtt://broker.hivemq.com:1883 voi clientId smarthome-backend-e1004f
+[MQTT] Da subscribe: []
